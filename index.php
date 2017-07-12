@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tunilance</title>
+	<title>Tunilance | The first and the best freelance website in Tunisia</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
