@@ -111,5 +111,22 @@
 		</center>
 		</div>
 	</div>
+	<div class="categories">
+		<div class="wrapper">
+			<center>
+				<h1>Categories</h1>
+			</center>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrapper">
+			<div class="footcont">
+				
+			</div>
+			<center>
+				<p style="font-size: 14px;">Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> - Tunilance project</p>
+			</center>	
+		</div>
+	</div>
 </body>
 </html>
