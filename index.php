@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tunilance | Freelance in Tunisia</title>
+	<title>Tunilance</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
