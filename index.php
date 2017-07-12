@@ -157,12 +157,17 @@
 					<li><a href="">About</a></li>
 					<li><a href="">Terms of use</a></li>
 					<li><a href="">Privacy</a></li>
-				</ul>
-				
-				
-				
-				
+				</ul>	
 			</div>
+				<center>
+					<p>Tunilance provides this Web site as a service to the public and Web site owners.
+
+Tunilance is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.
+
+Although the Tunilance Web site may include links providing direct access to other Internet resources, including Web sites, Tunilance is not responsible for the accuracy or content of information contained in these sites.
+
+Links from Tunilance to third-party sites do not constitute an endorsement by Tunilance of the parties or their products and services. The appearance on the Web site of advertisements and product or service information does not constitute an endorsement by Tunilance, and Tunilance has not investigated the claims made by any advertiser. Product information is based solely on material received from suppliers.</p>
+				</center>
 		</div>
 	</div>
 </body>
