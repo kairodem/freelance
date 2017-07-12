@@ -12,6 +12,9 @@ a:visited{
 	display: none;
 	transition-duration : 0.5s;
 }
+input{
+	outline: none !important;
+}
 body{
 	background-color: #fcfaf9;
 	font-family: 'Roboto', sans-serif !important;
