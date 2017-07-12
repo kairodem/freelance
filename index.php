@@ -121,11 +121,48 @@
 	<div class="footer">
 		<div class="wrapper">
 			<div class="footcont">
+				<ul id="fc1">
+					<li style="margin-bottom: 20px;"><img src="assets/img/logo.png" width="100px;"></li>
+					<li style="font-size: 14px;">Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> - Tunilance project</li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+				<ul>
+					<li id="fchead"><h2>SUPPORT US</h2></li>
+					<li><a href="">Donate now</a></li>
+					<li><a href="">Ways to give</a></li>
+					<li><a href="">Become a sponsor</a></li>
+					<li><a href="">Invest</a></li>
+				</ul>
+				<ul>
+					<li id="fchead"><h2>SOCIAL LINKS</h2></li>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">Unlimisoc</a></li>
+				</ul>
+				<ul>
+					<li id="fchead"><h2>TEAM</h2></li>
+					<li><a href="">Members</a></li>
+					<li><a href="">Jobs</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+				<ul>
+					<li id="fchead"><h2>HELP</h2></li>
+					<li><a href="">Contact us</a></li>
+					<li><a href="">Help Center</a></li>
+					<li><a href="">Report bug</a></li>
+				</ul>
+				<ul>
+					<li id="fchead"><h2>ABOUT</h2></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Terms of use</a></li>
+					<li><a href="">Privacy</a></li>
+				</ul>
+				
+				
+				
 				
 			</div>
-			<center>
-				<p style="font-size: 14px;">Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> - Tunilance project</p>
-			</center>	
 		</div>
 	</div>
 </body>
