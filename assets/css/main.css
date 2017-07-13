@@ -247,7 +247,7 @@ body{
 }
 .footer .footcont{
 	width: 100%;
-	height: 200px;
+	height: 170px;
 }
 .footer	.footcont ul#fc1{
 	float: left;
@@ -278,4 +278,5 @@ body{
 	text-align: center;
 	font-size: 12px;
 	line-height: 1.2;
+	margin-bottom: 30px;
 }
