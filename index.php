@@ -152,6 +152,7 @@
 					<li><a href="">Contact us</a></li>
 					<li><a href="">Help Center</a></li>
 					<li><a href="">Report bug</a></li>
+					<li><a href="">FAQ</a></li>
 				</ul>
 				<ul>
 					<li id="fchead"><h2>ABOUT</h2></li>
@@ -167,7 +168,7 @@ Tunilance is not responsible for, and expressly disclaims all liability for, dam
 
 Although the Tunilance Web site may include links providing direct access to other Internet resources, including Web sites, Tunilance is not responsible for the accuracy or content of information contained in these sites.
 
-Links from Tunilance to third-party sites do not constitute an endorsement by Tunilance of the parties or their products and services. The appearance on the Web site of advertisements and product or service information does not constitute an endorsement by Tunilance, and Tunilance has not investigated the claims made by any advertiser. Product information is based solely on material received from suppliers.</p>
+Links from Tunilance to third-party sites do not constitute an endorsement by Tunilance of the parties or their products and services. The appearance on the Web site of advertisements and product or service information does not constitute an endorsement by Tunilance, and Tunilance has not investigated the claims made by any advertiser. Product information is based solely on material received from suppliers.</p><br>
 					<div>
 						<p><img src="assets/img/code.svg" width="10"> with <img src="assets/img/heart.svg" width="10"> by Tunilance team</p>
 					</div>
