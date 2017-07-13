@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Tunilance | The first and the best freelance website in Tunisia</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<script type="text/javascript" src="assets/scripts/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css?<?php echo rand(); ?>">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css?<?php echo rand(); ?>">
+	<script type="text/javascript" src="assets/scripts/app.js?<?php echo rand(); ?>"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet"> 
 </head>
 <body>
@@ -168,6 +168,9 @@ Tunilance is not responsible for, and expressly disclaims all liability for, dam
 Although the Tunilance Web site may include links providing direct access to other Internet resources, including Web sites, Tunilance is not responsible for the accuracy or content of information contained in these sites.
 
 Links from Tunilance to third-party sites do not constitute an endorsement by Tunilance of the parties or their products and services. The appearance on the Web site of advertisements and product or service information does not constitute an endorsement by Tunilance, and Tunilance has not investigated the claims made by any advertiser. Product information is based solely on material received from suppliers.</p>
+					<div>
+						<h3>Desiged </h3>
+					</div>
 				</center>
 		</div>
 	</div>
