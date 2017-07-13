@@ -58,18 +58,23 @@
 				<h1>What is freelance?</h1>
 				<img src="assets/img/q.svg" width="50px" style="image-orientation:180deg">
 			</center>
-			<p>1.Freelancer. a person who works as a writer, designer, performer, or the like, selling work or services by the hour, day, job, etc., rather than working on a regular salary basis for one employer.<br>2.A person who contends in a cause or in a succession of various causes, as he or she chooses, without personal attachment or allegiance.
+			<center>
+			<p>Freelancer. a person who works as a writer, designer, performer, or the like, selling work or services by the hour, day, job, etc., rather than working on a regular salary basis for one employer.<br>A person who contends in a cause or in a succession of various causes, as he or she chooses, without personal attachment or allegiance.
 			</p>
+			</center>
+			<br>
 			<center>
 				<img src="assets/img/q.svg" width="50px">
 				<h1>What is Tunilance?</h1>
 				<img src="assets/img/q.svg" width="50px" style="image-orientation:180deg">
 			</center>
+			<center>
 			<p>
 				Tunilance is a platform created by Tunisians for Tunisians. It's for those who want to expand their earnings or start making money using their skills. <br>
 				We know that it's hard for Tunisians to do freelance on other websites due to their hard conditions, rules and user exploitation. <br>
 				That's why Tunilance is the best place to be as we don't require the user to pay to start working. 
 			</p>
+			</center>
 		</div>
 	</div>
 	<div class="content2">
