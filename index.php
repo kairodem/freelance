@@ -125,19 +125,19 @@
 					<ul>
 						<li>
 							<div>
-								Software & web development <br>
+								<h2>Software,mobile & web development</h2>
 								<img src="assets/img/categories/programming.svg" width="50">
 							</div>
 						</li>
 						<li id="catsep">
 							<div>
-								Design <br>
+								<h2>Design</h2>
 								<img src="assets/img/categories/design.svg" width="50">
 							</div>
 						</li>
 						<li>
 							<div>
-								Translaion & writing services <br>
+								<h2>Translaion & writing services</h2>
 								<img src="assets/img/categories/writing.svg" width="50">
 							</div>
 						</li>
@@ -145,24 +145,25 @@
 					<ul>
 						<li>
 							<div>
-								Voice & sound <br>
+								<h2>Voice & audio</h2>
 								<img src="assets/img/categories/sound.svg" width="50">
 							</div>
 						</li>
 						<li id="catsep">
 							<div>
-								Multimedia & video <br>
+								<h2>Multimedia</h2>
 								<img src="assets/img/categories/multimedia.svg" width="50">
 							</div>
 						</li>
 						<li>
 							<div>
-								Marketing & data analysis <br>
+								<h2>Marketing & data analysis</h2>
 								<img src="assets/img/categories/marketing.svg" width="50">						
 							</div>
 						</li>
 					</ul>
 				</div>
+				<a href="" id="browsecat">Browse categories</a>
 			</center>
 		</div>
 	</div>
