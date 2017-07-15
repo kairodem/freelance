@@ -76,7 +76,7 @@
 						<div class="box">
 							<img src="assets/img/create.svg" width="100">
 							<h2>1. Create an account</h2>
-							<h3>Create a free account and get 50 coins for free as a startup.</h3>
+							<h3>Create a free account and get 10 coins for free as a startup.</h3>
 						</div>
 					</li>
 					<li>
