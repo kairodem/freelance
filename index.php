@@ -25,7 +25,7 @@
 			<center>
 				<h1>Become a freelancer today!</h1>
 				<h2>Free *, simple and fast. The best freelance experience for Tunisian creative minds.</h2>
-				<div class="btn"><a href="#" onclick="play()">Start now</a></div><br>
+				<div class="btn"><a href="#">Start now</a></div><br>
 				<h2>Or</h2><br>
 				<div class="search">
 					<center>
@@ -36,17 +36,6 @@
 						</ul>
 					</center>
 				</div>
-				<audio id="aud">
-				  <source src="assets/sound/click.wav" type="audio/wav">
-				  Your browser does not support the audio element.
-				</audio>
-				<script>
-					var x = document.getElementById("aud"); 
-					x.volume = 0.5;
-					function play() { 
-					    x.play(); 
-					}
-				</script>
 				<h3>* Memberships are aquired by users, all users get the same features. <a href="">Learn more</a>.</h3>
 			</center>	
 		</div>
@@ -127,18 +116,30 @@
 							<div>
 								<h2>Software,mobile & web development</h2>
 								<img src="assets/img/categories/programming.svg" width="50">
+								<ul>
+									<li>Ex: Desktop/mobile/web dev...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>
 							</div>
 						</li>
 						<li id="catsep">
 							<div>
 								<h2>Design</h2>
 								<img src="assets/img/categories/design.svg" width="50">
+								<ul>
+									<li>Ex: Logo/mobile/web design...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>
 							</div>
 						</li>
 						<li>
 							<div>
 								<h2>Translaion & writing services</h2>
 								<img src="assets/img/categories/writing.svg" width="50">
+								<ul>
+									<li>Ex: Translation/article/spell checking...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>
 							</div>
 						</li>
 					</ul>
@@ -147,18 +148,30 @@
 							<div>
 								<h2>Voice & audio</h2>
 								<img src="assets/img/categories/sound.svg" width="50">
+								<ul>
+									<li>Ex: Acapellas/music & audio editing...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>
 							</div>
 						</li>
 						<li id="catsep">
 							<div>
 								<h2>Multimedia</h2>
 								<img src="assets/img/categories/multimedia.svg" width="50">
+								<ul>
+									<li>Ex: Montage/video editing & creation...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>
 							</div>
 						</li>
 						<li>
 							<div>
 								<h2>Marketing & data analysis</h2>
-								<img src="assets/img/categories/marketing.svg" width="50">						
+								<img src="assets/img/categories/marketing.svg" width="50">
+								<ul>
+									<li>Ex: Desktop/mobile/web dev...</li>
+									<li style="font-style: italic;">Click for more</li>
+								</ul>						
 							</div>
 						</li>
 					</ul>
