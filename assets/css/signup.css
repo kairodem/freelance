@@ -6,7 +6,9 @@
 	height: 450px;
 	background-color: #6320ee;
 }
-
+.loginp{
+	transition-duration : 0.2s;
+}
 .loginp .loginpbtn{
 	width: 100px;
 	height: 40px;
@@ -25,4 +27,11 @@
 }
 .loginp input#bday{
 	padding:0;
+}
+.loginp button{
+	font-family: 'Roboto', sans-serif !important; 
+	border:none;
+	padding:0;
+	font-size: 18px;
+	color: #ffffff;
 }

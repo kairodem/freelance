@@ -26,18 +26,24 @@
 			<center>
 				<div class="logwrapper">
 					<h1>Sign up</h1>
-					<div class="loginp">
-						<!--<input type="text" name="" placeholder="Username"><br><br>
-						<input type="email" name="" placeholder="Email"><br><br>
-						<input type="password" name="" placeholder="Password"><br><br>
-						<input type="password" name="" placeholder="Re-type password"><br><br>-->
-						<input type="text" name="" placeholder="Full name"><br><br>
-						<input type="text" name="" placeholder="Username"><br><br>
-						<p style="display: inline; margin-right: 10px;font-size: 18px; color: #fcfaf9;">Brithday:</p>
-						<input type="text" id="bday" name="" placeholder="dd" maxlength="2" style="width: 20px;">
-						<input type="text" id="bday" name="" placeholder="mm" maxlength="2" style="width: 35px;">
-						<input type="text" id="bday" name="" placeholder="yyyy" maxlength="4" style="width: 45px;"><br><br>
-						<div class="loginpbtn"><p>Next</p></div>
+					<div class="loginp" id="loginStep1">
+						<form>
+							<input type="text" name="" placeholder="Username"><br><br>
+							<input type="password" name="" placeholder="Password"><br><br>
+							<input type="password" name="" placeholder="Re-type password"><br><br>
+							<p style="display: inline; margin-right: 10px;font-size: 18px; color: #fcfaf9;">Brithdate:</p>
+							<input type="number" id="bday" name="" placeholder="dd" maxlength="2" style="width: 50px;" min="01" max="31">
+							<input type="number" id="bday" name="" placeholder="mm" maxlength="2" style="width: 50px;" min="01" max="12">
+							<input type="number" id="bday" name="" placeholder="yyyy" maxlength="4" style="width: 60px;" min="1900" max="2017"><br><br>
+							<div class="loginpbtn" onclick="hideStep1();"><p>Next</p></div>
+						</form>
+					</div>
+					<div class="loginp hidden" id="loginStep2">
+						<form>
+							<input type="text" name="" placeholder="Full name"><br><br>
+							<input type="email" name="" placeholder="Email"><br><br>
+							<button class="loginpbtn" type="submit">Submit</button>
+						</form>
 					</div>
 					<h2>Existing user? <a href="login.php">Click here to login</a></h2>
 				</div>
