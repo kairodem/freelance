@@ -1,0 +1,28 @@
+.logwrapper{
+	position: fixed;
+	top:15%;
+	left:30%;
+	width: 40%;
+	height: 450px;
+	background-color: #6320ee;
+}
+
+.loginp .loginpbtn{
+	width: 100px;
+	height: 40px;
+	background-color: #48e5c2;
+	transition-duration: 0.2s;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.loginp .loginpbtn:hover{
+	transition-duration: 0.2s;
+	width: 110px;
+}
+.loginp .loginpbtn p{
+	padding-top: 12px;
+	color: #fcfaf9;
+}
+.loginp input#bday{
+	padding:0;
+}

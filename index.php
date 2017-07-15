@@ -13,8 +13,8 @@
 			<div class="logo"><a href=""></a></div>
 			<div class="headnav">
 				<ul>
-					<li><a href="">Log in</a></li>
-					<li><a href="">Sign up</a></li>
+					<li><a href="login.php">Log in</a></li>
+					<li><a href="signup.php">Sign up</a></li>
 				</ul>
 			</div>
 			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.2</h1>
