@@ -11,7 +11,7 @@
 <body>
 	<div class="header">
 		<div class="wrapper">
-			<div class="logo"><a href=""></a></div>
+			<div class="logo"><a href="index.php"></a></div>
 			<div class="headnav">
 				<ul>
 					<li><a href="signup.php">Sign up</a></li>
