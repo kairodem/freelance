@@ -6,7 +6,7 @@
 	top:25%;
 	left:30%;
 	width: 40%;
-	height: 295px;
+	height: 320px;
 	background-color: #6320ee;
 }
 .logwrapper h1{
@@ -53,7 +53,6 @@
 .loginp a#forgotpw{
 	display: inline-block;
 	color: #48e5c2 !important;
-	margin-top: 20px;
 	text-decoration: underline !important;
 	font-style: italic;
 }

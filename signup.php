@@ -18,7 +18,7 @@
 					<li><a href="login.php">Login</a></li>
 				</ul>
 			</div>
-			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.2</h1>
+			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.5</h1>
 		</div>
 	</div>
 	<div class="logsign">
@@ -42,6 +42,8 @@
 						<form action="k.php">
 							<input type="text" name="" placeholder="Full name"><br><br>
 							<input type="email" name="" placeholder="Email"><br><br>
+							<input type="checkbox" name="" id="remme" style="width: 20px !important; height: 10px;">
+							<label for="remme" style="color: #fcfaf9;">I agree to the terms n shit.</label><br><br>
 							<button class="loginpbtn" type="submit">Submit</button>
 						</form>
 					</div>

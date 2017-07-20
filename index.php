@@ -17,7 +17,7 @@
 					<li><a href="signup.php">Sign up</a></li>
 				</ul>
 			</div>
-			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.2</h1>
+			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.5</h1>
 		</div>
 	</div>
 	<div class="undhead">

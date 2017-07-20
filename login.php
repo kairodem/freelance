@@ -17,7 +17,7 @@
 					<li><a href="signup.php">Sign up</a></li>
 				</ul>
 			</div>
-			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.2</h1>
+			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.5</h1>
 		</div>
 	</div>
 	<div class="logsign">
@@ -28,6 +28,8 @@
 					<div class="loginp">
 						<input type="text" name="" placeholder="Email or username"><br><br>
 						<input type="password" name="" placeholder="Password"><br><br>
+						<input type="checkbox" name="" id="remme" style="width: 20px !important; height: 10px;">
+						<label for="remme" style="color: #fcfaf9;">Remember me</label><br><br>
 						<a href="" id="forgotpw">Forgot username or password?</a>
 					</div>
 					<h2>New user? <a href="signup.php">Click here to join!</a></h2>
