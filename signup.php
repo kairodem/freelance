@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/signup.css?<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css?<?php echo rand(); ?>">
 	<script type="text/javascript" src="assets/scripts/app.js?<?php echo rand(); ?>"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet"> 
 </head>
 <body>
@@ -44,7 +45,8 @@
 							<input type="email" name="" placeholder="Email"><br><br>
 							<input type="checkbox" name="" id="remme" style="width: 20px !important; height: 10px;">
 							<label for="remme" style="color: #fcfaf9;">I agree to the terms n shit.</label><br><br>
-							<button class="loginpbtn" type="submit">Submit</button>
+							<div class="g-recaptcha" data-sitekey="6LeZJCoUAAAAACfdw_Qj5Sel1fTHPtl9_rXtw-8R"></div><br>
+							<span onclick="hideStep2();" style="margin-right: 20px; color:#fcfaf9; cursor: pointer;">< Back</span><button class="loginpbtn" type="submit">Submit</button>
 						</form>
 					</div>
 					<h2>Existing user? <a href="login.php">Click here to login</a></h2>

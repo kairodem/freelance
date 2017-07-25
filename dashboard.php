@@ -12,10 +12,14 @@
 	<div class="header">
 		<div class="wrapper">
 			<div class="logo"><a href="index.php"></a></div>
-			<div class="headnav">
+			<div class="headnav dashnav">
 				<ul>
-					<li><a href="login.php">Log in</a></li>
-					<li><a href="signup.php">Sign up</a></li>
+					<li><a href="">Browse</a></li>
+					<li><a href="">Settings</a></li>
+				</ul>
+				<ul>
+					<li><a href="">Messages</a></li>
+					<li><a href="">PROFILE PIC HERE</a></li>
 				</ul>
 			</div>
 			<h1 style="color: #FFFFFF; padding-top: 20px; padding-left: 10px;">PRE ALPHA 0.5</h1>
