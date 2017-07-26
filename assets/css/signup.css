@@ -25,7 +25,7 @@
 	padding-top: 12px;
 	color: #fcfaf9;
 }
-.loginp input#bday{
+.loginp input.bday{
 	padding:0;
 }
 .loginp button{
@@ -35,3 +35,19 @@
 	font-size: 18px;
 	color: #ffffff;
 }
+#checkusr{
+	line-height: 0px;
+	color: #48e5c2;
+	font-size: 13px;
+}
+.pwdremind{
+	line-height: 0px;
+	color: #48e5c2;
+	font-size: 13px;
+}
+.invalid_input{
+	transition-duration: 0.2s;
+	border-bottom: 1px solid red !important; 
+}
+
+

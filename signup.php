@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/login.css?<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="assets/css/signup.css?<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css?<?php echo rand(); ?>">
+	<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 	<script type="text/javascript" src="assets/scripts/app.js?<?php echo rand(); ?>"></script>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet"> 
@@ -28,14 +29,17 @@
 				<div class="logwrapper">
 					<h1>Sign up</h1>
 					<div class="loginp" id="loginStep1">
-						<form>
-							<input type="text" name="" placeholder="Username"><br><br>
-							<input type="password" name="" placeholder="Password"><br><br>
-							<input type="password" name="" placeholder="Re-type password"><br><br>
+						<form name="form">
+							<input type="text" name="usr" placeholder="Username" id="usrname_input"><br>
+							<span id="checkusr"></span><br>
+							<input class="" type="password" name="pwd" placeholder="Password" id="pwd"><br>
+							<span class="pwdremind hidden" id="spanpwd">Please enter a valid password.</span><br>
+							<input class="" type="password" name="repwd" placeholder="Re-type password" id="repwd"><br>
+							<span class="pwdremind hidden" id="spanrepwd"></span><br>
 							<p style="display: inline; margin-right: 10px;font-size: 18px; color: #fcfaf9;">Birthdate:</p>
-							<input type="text" id="bday" name="" placeholder="dd" maxlength="2" style="width: 20px;" min="01" max="31">
-							<input type="text" id="bday" name="" placeholder="mm" maxlength="2" style="width: 35px;" min="01" max="12">
-							<input type="text" id="bday" name="" placeholder="yyyy" maxlength="4" style="width: 45px;" min="1900" max="2017"><br><br>
+							<input type="number" id="bday" class="bday" name="" placeholder="dd" maxlength="2" style="width: 40px;" min="1" max="31">
+							<input type="number" id="bmonth" class="bday" name="" placeholder="mm" maxlength="2" style="width: 55px;" min="1" max="12">
+							<input type="number" id="byear" class="bday" name="" placeholder="yyyy" maxlength="4" style="width: 65px;" min="1900" max="2017"><br><br>
 							<div class="loginpbtn" onclick="hideStep1();"><p>Next</p></div>
 						</form>
 					</div>
