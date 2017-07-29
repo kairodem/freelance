@@ -6,7 +6,7 @@
 	top:25%;
 	left:30%;
 	width: 40%;
-	height: 320px;
+	height: 330px;
 	background-color: #6320ee;
 }
 .logwrapper h1{
@@ -62,4 +62,18 @@
 	background-color: #131515;
 	position: fixed;
 	bottom: 0px;
+}
+.loginp button{
+	width: 100px;
+	height: 40px;
+	background-color: #48e5c2;
+	transition-duration: 0.2s;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 0;
+	color: #fcfaf9;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }

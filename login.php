@@ -1,3 +1,30 @@
+<?php
+$cnct = mysqli_connect("localhost", "root","");
+mysqli_select_db($cnct,"tunilance");
+if (isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['pwd'])) {
+	$mail = $_POST['mail'];
+	$pwd = md5($_POST['pwd']);
+
+	$mail = stripcslashes($mail);
+	$mail = mysqli_real_escape_string($cnct, $mail);
+	$pwd = stripcslashes($pwd);
+	$pwd = mysqli_real_escape_string($cnct, $pwd);
+
+	$sqlq = "SELECT * FROM usr WHERE mail='$mail' AND password='$pwd'";
+	$result = mysqli_query($cnct,$sqlq); 
+	$row = mysqli_fetch_array($result);
+	if ($row['mail'] == $mail && $row['password'] == $pwd) {
+		echo 'LOGIN SUCCESS!!!!!!! WELCOME '.$row['mail'];
+	}
+	else{
+		echo "Failed to login";
+	}
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,11 +53,14 @@
 				<div class="logwrapper">
 					<h1>Login</h1>
 					<div class="loginp">
-						<input type="text" name="" placeholder="Email or username"><br><br>
-						<input type="password" name="" placeholder="Password"><br><br>
-						<input type="checkbox" name="" id="remme" style="width: 20px !important; height: 10px;">
-						<label for="remme" style="color: #fcfaf9;">Remember me</label><br><br>
-						<a href="" id="forgotpw">Forgot username or password?</a>
+						<form action="login.php" method="POST">
+							<input type="mail" name="mail" placeholder="Email"><br><br>
+							<input type="password" name="pwd" placeholder="Password"><br><br>
+							<input onchange="document.getElementById('lgnbtn').disabled = !this.checked;" type="checkbox" name="" id="remme" style="width: 20px !important; height: 10px;">
+							<label for="remme" style="color: #fcfaf9;">Remember me</label>
+							<button id="lgnbtn" class="loginpbtn" type="submit">Submit</button><br>
+							<a href="" id="forgotpw">Forgot username or password?</a>
+						</form>
 					</div>
 					<h2>New user? <a href="signup.php">Click here to join!</a></h2>
 				</div>

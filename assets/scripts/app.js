@@ -1,6 +1,35 @@
 $(document).ready(function() {
 	usrcheck();
-	
+	document.getElementById('repwd').onkeydown = function(e){
+    	if(e.keyCode == 13){
+	    	hideStep1();
+	    }
+	};
+	document.getElementById('usrname_input').onkeydown = function(e){
+	   if(e.keyCode == 13){
+	    	hideStep1();
+	   }
+	};
+	document.getElementById('pwd').onkeydown = function(e){
+	   if(e.keyCode == 13){
+	    	hideStep1();
+	   }
+	};
+	document.getElementById('bday').onkeydown = function(e){
+	   if(e.keyCode == 13){
+	    	hideStep1();
+	   }
+	};
+	document.getElementById('bmonth').onkeydown = function(e){
+	   if(e.keyCode == 13){
+	    	hideStep1();
+	   }
+	};
+	document.getElementById('byear').onkeydown = function(e){
+	   if(e.keyCode == 13){
+	    	hideStep1();
+	   }
+	};
 	$('#checkusr').load('check.php').show();
 	$('#usrname_input').keyup(function () {
 		$.post('check.php', {username: form.usr.value},
@@ -18,6 +47,14 @@ $(document).ready(function() {
 	$('#usrname_input').keyup(usrcheck);	
 	$('#bday, #bmonth, #byear').bind('keyup mouseup',bdaycheck);
 });
+     $(document).ready(function() {
+   $(window).keydown(function(event){
+     if(event.keyCode == 13) {
+       event.preventDefault();
+       return false;
+     }
+   });
+ });
 var lencheck = 0;
 var eqcheck = 0;
 var check = 0;
@@ -109,3 +146,4 @@ function hideStep2() {
 	document.getElementById('loginStep1').classList.remove('hidden');
 	document.getElementById('loginStep2').classList.add('hidden');
 }
+
